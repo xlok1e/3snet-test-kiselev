@@ -1,8 +1,11 @@
+import { PlanPage } from '@/pages/PlanPage/PlanPage';
+import { Layout } from '@/shared/ui/Layout/Layout';
+
 function App() {
   return (
-    <>
-      <div>dev</div>
-    </>
+    <Layout>
+      <PlanPage />
+    </Layout>
   );
 }
 
